@@ -17,6 +17,6 @@ This is a site dedicated to pay respects to KONAMI.
 **KONAMI NMSL!!!**
 :::
 
-<video width="500" controls loop>
+<video id="video" controls loop>
       <source id="webm" src="/alert.webm" type="video/webm">
 </video>
