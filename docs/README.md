@@ -20,11 +20,11 @@ This is a site dedicated to pay respects to KONAMI.
 **KONAMI NMSL!!!**
 :::
 
-<!-- ::: center -->
+::: center
 <video id="video" controls loop>
       <source id="webm" src="/alert.webm" type="video/webm">
 </video>
-<!-- ::: -->
+:::
 
 <!-- <script setup lang="ts">
 import AppearanceSwitch from '@theme-hope/module/outlook/components/AppearanceSwitch'
