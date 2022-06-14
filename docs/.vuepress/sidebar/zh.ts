@@ -12,6 +12,7 @@ export const zh = sidebar({
       text: "轮椅人教程",
       prefix: "guide/noob/",
       icon: "launch",
+      link: "guide/noob/",
       collapsable: true,
       children: "structure",
     },
