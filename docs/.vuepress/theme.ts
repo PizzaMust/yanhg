@@ -53,6 +53,7 @@ export default hopeTheme({
       tabs: true,
       codetabs: true,
       align: true,
+      imageSize: true,
     },
     seo: false,
     sitemap: false,
