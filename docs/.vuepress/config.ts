@@ -1,22 +1,21 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
-import themeConfig from "./themeConfig";
+import { defineUserConfig } from "vuepress";
+import theme from "./theme";
 
-export default defineHopeConfig({
-  lang: "en-US",
-  title: "KONAMI NMSL",
-  description: "Never Mind the Scandal and Libel",
-
+export default defineUserConfig({
   base: "/",
 
-  // head: [
-  //   [
-  //     "link",
-  //     {
-  //       rel: "stylesheet",
-  //       href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
-  //     },
-  //   ],
-  // ],
+  locales: {
+    "/": {
+      lang: "en-US",
+      title: "KONAMI NMSL",
+      description: "To show respects to KONAMI.",
+    },
+    "/zh/": {
+      lang: "zh-CN",
+      title: "科乐美 NMSL",
+      description: "提供一些科乐美游戏的游玩教程",
+    },
+  },
 
-  themeConfig,
+  theme,
 });
