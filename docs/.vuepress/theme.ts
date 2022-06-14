@@ -40,6 +40,12 @@ export default hopeTheme({
     },
   },
 
+  navbarLayout: {
+    left: ["Brand"],
+    center: ["Links"],
+    right: ["Outlook", "Search"],
+  },
+
   plugins: {
     mdEnhance: {
       enableAll:false,

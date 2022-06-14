@@ -17,5 +17,10 @@ export default defineUserConfig({
     },
   },
 
+  head: [
+    ['link', { rel: "icon", href: "/favicon.png"}],
+    ['link', { rel: "icon", type: "image/png", href: "/logo.svg"}],
+  ],
+
   theme,
 });
