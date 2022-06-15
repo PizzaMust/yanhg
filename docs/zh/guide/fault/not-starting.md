@@ -38,8 +38,8 @@ order: 1
 
 这种情况可能是由多方面导致的，这里只能给出一些大概的解决方式：
 
++ 音频设备问题，这是**最常见的问题**。其原因可能是部分外置声卡/DAC无法正确处理WASAPI独占模式导致的。可尝试使用主板自带声卡，或者尝试在[修改主入口文件](../noob/structure.md#主入口文件的修改)时开启`Shared mode WASAPI`与`Shared mode WASAPI Valkyrie`
 + `soundvoltex.dll` 与游戏资源版本不对应，请用对应版本的dll匹配对应的资源
-+ 音频出现问题/声卡不匹配，可尝试在[修改主入口文件](../noob/structure.md#主入口文件的修改)时开启`Shared mode WASAPI`与`Shared mode WASAPI Valkyrie`
 + 未禁用摄像头，可在`spicecfg`中打开`SDVX Disable Cameras`选项
 
 ## unable to find Direct3DCreate9On12Ex
@@ -55,4 +55,14 @@ order: 1
 这是原作者的[repo](https://github.com/Joshua-Ashton/neun-auf-zwoelf)，也有可能是这个[repo](https://github.com/narzoul/ForceD3D9On12)
 
 现在`SpiceTools`已经集成了`DirectX 9 On 12`的功能，理论上这些外部文件都已经不需要了。
+:::
+
+## 自检后闪退
+
+未禁用摄像头，可在`spicecfg`中打开`SDVX Disable Cameras`选项
+
+::: info 说明
+
+现在`SpiceTools`已经修复了这个问题，如果出现闪退的话，可能是因为版本太老了。
+
 :::
