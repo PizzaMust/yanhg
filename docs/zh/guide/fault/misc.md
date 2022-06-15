@@ -42,3 +42,7 @@ PowerCfg /SETACTIVE SCHEME_CURRENT
 ```
 
 :::
+
+## `Asphyxia CORE` 无法正常启动
+
+<Badge text="TODO" />
