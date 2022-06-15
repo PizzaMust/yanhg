@@ -45,7 +45,7 @@ order: 7
 
 随后，对右旋钮旋钮也进行同样的操作，全部调整完毕后选择`SAVE AND EXIT`
 
-## CLOCK <Badge text="TODO"/>
+## CLOCK <Badge text="可选"/>
 
 选择CLOCK，进入后直接选择`SAVE AND EXIT`
 
