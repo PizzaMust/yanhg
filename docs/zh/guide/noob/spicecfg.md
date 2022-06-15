@@ -107,13 +107,13 @@ order: 5
 
 ::: tabs#cards
 
-@tab NVIDIA显卡
+@tab NVIDIA显卡和INTEL显卡
 
 + Service URL: 填入 `http://localhost:8083`
 + [x] Load Sound Voltex Module
 + [x] SDVX Disable Cameras
 
-@tab 非NVIDIA显卡
+@tab AMD显卡
 
 + Service URL: 填入 `http://localhost:8083`
 + [x] DirectX 9 on 12

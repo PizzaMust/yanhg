@@ -34,7 +34,7 @@ export const zh = sidebar({
       text: "故障排除",
       prefix: "guide/fault/",
       icon: "question",
-      // collapsable: true,
+      collapsable: true,
       children: "structure",
     }
   ],
