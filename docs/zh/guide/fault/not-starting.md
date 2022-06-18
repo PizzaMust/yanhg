@@ -57,6 +57,10 @@ order: 1
 现在`SpiceTools`已经集成了`DirectX 9 On 12`的功能，理论上这些外部文件都已经不需要了。
 :::
 
+## 无法定位程序输入点`cuvidGetDecodeStatus`
+
+显卡驱动版本过低。更新，请。
+
 ## 自检后闪退
 
 未禁用摄像头，可在`spicecfg`中打开`SDVX Disable Cameras`选项
