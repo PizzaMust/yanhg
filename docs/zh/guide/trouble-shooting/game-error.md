@@ -42,4 +42,4 @@ order: 2
 
 ## 回线混杂/网络错误
 
-![网络错误](/assets/err-net-error.png =300x)
+<Badge text="TODO"/>
