@@ -36,7 +36,7 @@ order: 3
 
 否则，电脑的电源计划会被破坏，CPU占用率会锁死在100%。
 
-如果悲剧已经发生，你可以参考[故障排除-CPU占用率100%](../fault/misc.md#cpu占用率100)来解决。
+如果悲剧已经发生，你可以参考[故障排除-CPU占用率100%](../trouble-shooting/misc.md#cpu占用率100)来解决。
 :::
 
 这里不会提供patch的方式，请自寻。如果你已经获得了渠道，推荐勾选如下选项：
@@ -118,7 +118,7 @@ EXCEED GEAR不支持60Hz或120Hz以外的刷新率，如果你的屏幕不是60H
         <dest __type="str">J</dest>
         <spec __type="str">F</spec>
         <rev __type="str">A</rev>
-        <ext __type="str">当前游戏版本号</ext>
+        <ext __type="str">当前游戏版本日期</ext>
     </soft>
 ```
 
@@ -136,7 +136,7 @@ EXCEED GEAR不支持60Hz或120Hz以外的刷新率，如果你的屏幕不是60H
         <dest __type="str">J</dest>
         <spec __type="str">G</spec>
         <rev __type="str">A</rev>
-        <ext __type="str">当前游戏版本号</ext>
+        <ext __type="str">当前游戏版本日期</ext>
     </soft>
 ```
 
