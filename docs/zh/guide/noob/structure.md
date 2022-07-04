@@ -152,7 +152,7 @@ EXCEED GEAR不支持60Hz或120Hz以外的刷新率，如果你的屏幕不是60H
 
 ## 补充DLL
 
-前文提到，EXCEED GEAR依赖两个NVIDIA显卡的DLL，一个是`nvapi.dll`，另一个是`nvapi64.dll`。
+前文提到，EXCEED GEAR依赖两个NVIDIA显卡的DLL，一个是`nvcuda.dll`，另一个是`nvcuvid.dll`。
 
 对于N卡用户，可以直接跳过看下一节[配置离线服务器](server.md)，而非N卡玩家则需要手动下载并放置这两个DLL到游戏根目录`contents`下。
 
