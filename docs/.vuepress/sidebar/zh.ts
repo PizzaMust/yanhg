@@ -20,6 +20,7 @@ export const zh = sidebar({
       text: "网络联机",
       prefix: "guide/network/",
       icon: "light",
+      link: "guide/network/",
       // collapsable: true,
       children: "structure",
     },
@@ -32,7 +33,7 @@ export const zh = sidebar({
     },
     {
       text: "故障排除",
-      prefix: "guide/fault/",
+      prefix: "guide/trouble-shooting/",
       icon: "question",
       collapsable: true,
       children: "structure",

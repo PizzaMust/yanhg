@@ -55,6 +55,7 @@ export default hopeTheme({
       align: true,
       imageSize: true,
       tasklist: true,
+      footnote: true,
     },
     seo: false,
     sitemap: false,
