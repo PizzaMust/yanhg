@@ -18,8 +18,8 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: "icon", href: "/favicon.png"}],
-    ['link', { rel: "icon", type: "image/png", href: "/logo.svg"}],
+    // ['link', { rel: "icon", href: "/favicon.png"}],
+    ['link', { rel: "icon", href: "/logo.svg"}],
   ],
 
   theme,

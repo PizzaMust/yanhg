@@ -20,20 +20,35 @@ order: 1
 
 点击这条信息进入设置，将`Access Control`改为`PUBLIC`，他人就可以随意加入了。接下来，记好`Network ID`会很有用。
 
-## 下载ZeroTierOne客户端
+## 配置 ZeroTierOne 客户端
 
-请访问官网下载客户端，下载链接为
+1. 请访问官网下载客户端，下载链接为
 
 [https://www.zerotier.com/download/](https://www.zerotier.com/download/)
 
-安装完成后，会在任务栏显示角标。右键点击`Open Control Panel`，即可打开主界面。
 
-![ZeroTierOne控制面板](/assets/net-zerotier-1.jpg)
+2. 安装完成后，会在任务栏显示角标。~~右键点击`Open Control Panel`，即可打开主界面。~~
 
-在底部输入`Network ID`即可加入网络。
+::: warning
+新版本的ZeroTier One已经去掉了控制面板，需要直接从托盘右键菜单中管理。
+:::
 
-加入网络后，点击可以查看网络相关信息。
+3. 在右键弹出的菜单中，选择“Join New Network...”
+4. 输入`Network ID`，即可加入网络
+5. 加入网络后，在右键菜单对应网络的二级菜单中可以查看网络相关信息
+6. 进入`Managed Addresses`，记住IP斜杠`/`后的数字
+7. 单击分配到的IP，IP地址就自动复制到剪贴板中了
+8. 子网掩码计算方法为：二进制32位，每8位分为1组；从前往后数n位，对应斜杠后数字位数，填上1；其余位填上0。随后将每组分别转换为十进制即可
 
-![网络信息](/assets/net-zerotier-2.jpg)
+::: note
+例：
 
-需要记下`Managed Ips`，该IP使用的是CIDR记法，子网掩码包含在其中。
+xxx.xxx.xxx.x/18 即
+
+**11111111 11111111 11**000000 00000000
+
+子网掩码即为
+
+255.255.192.0
+
+:::
