@@ -48,37 +48,51 @@ order: 3
 + [x] Disable power change → 阻止更改电源计划
 + [x] Disable monitor change → 阻止更改多屏配置
 + [x] Force BIO2 (KFC) IO in Valkyrie mode → 在女武神模式下使用老IO
-+ [ ] 120Hz Support → 120Hz支持
++ Game FPS Target: Default → 游戏目标FPS
 + Note FPS Target: Default → 谱面目标FPS
-+ [ ] Force Note FPS Target → 强制使用目标FPS
++ [ ] Force Note FPS Target → 强制使用谱面目标FPS
 + [x] Shared mode WASAPI → WASAPI共享模式
 + [x] Shared mode WASAPI Valkyrie → 女武神模式下使用WASAPI共享模式
-+ [x] Allow non E004 cards → 允许非E004开头的卡片
++ [ ] Allow non E004 cards → 允许非E004开头的卡号
++ [ ] Unlock All Songs → 歌曲全解
++ [ ] Unlock All Difficulties → 难度全解
++ [ ] Enable S-CRITICAL in Light Start → LIGHT模式也允许打开S判
++ [ ] Uncensor album jackets (for K region only) → 韩区反和谐
++ [ ] Hide all bottom text → 隐藏所有底部文本
++ [ ] Disable subscreen in Valkyrie mode → 女武神模式下禁用副屏
 + [x] Timer freeze → 冻结计时器
 + [x] Premium timer freeze → 冻结Premium Free模式下的计时器
-+ [ ] Hide premium guide banner
++ [ ] Hide premium guide banner → 隐藏Premium Free打歌时的提示框
++ Premium Time Length: 按喜好
 
 @tab 120Hz 配置
 
 + [x] Disable power change → 阻止更改电源计划
 + [x] Disable monitor change → 阻止更改多屏配置
 + [x] Force BIO2 (KFC) IO in Valkyrie mode → 在女武神模式下使用老IO
-+ [x] 120Hz Support → 120Hz支持
++ Game FPS Target: 120 FPS → 游戏目标FPS
 + Note FPS Target: 120 FPS → 谱面目标FPS
-+ [x] Force Note FPS Target → 强制使用目标FPS
++ [x] Force Note FPS Target → 强制使用谱面目标FPS
 + [x] Shared mode WASAPI → WASAPI共享模式
 + [x] Shared mode WASAPI Valkyrie → 女武神模式下使用WASAPI共享模式
-+ [x] Allow non E004 cards → 允许非E004开头的卡片
++ [ ] Allow non E004 cards → 允许非E004开头的卡号
++ [ ] Unlock All Songs → 歌曲全解
++ [ ] Unlock All Difficulties → 难度全解
++ [ ] Enable S-CRITICAL in Light Start → LIGHT模式也允许打开S判
++ [ ] Uncensor album jackets (for K region only) → 韩区反和谐
++ [ ] Hide all bottom text → 隐藏所有底部文本
++ [ ] Disable subscreen in Valkyrie mode → 女武神模式下禁用副屏
 + [x] Timer freeze → 冻结计时器
 + [x] Premium timer freeze → 冻结Premium Free模式下的计时器
-+ [ ] Hide premium guide banner
++ [ ] Hide premium guide banner → 隐藏Premium Free打歌时的提示框
++ Premium Time Length: 按喜好
 
 :::
 
 ::: warning 注意
-EXCEED GEAR不支持60Hz或120Hz以外的刷新率，如果你的屏幕不是60Hz或120Hz，请将刷新率调整为对应的数值。
+EXCEED GEAR在官机上只有60FPS与120FPS两种刷新率，如果你的屏幕不是60Hz或120Hz，请将刷新率调整为对应的数值。
 
-你还可以尝试将Note FPS Target调整为当前屏幕的刷新率，但是是否能解决问题还未经验证。
+你也可以尝试将Note FPS Target与Game FPS Target调整为当前屏幕的刷新率，但是是否能解决问题还未经验证。
 :::
 
 ::: warning 注意

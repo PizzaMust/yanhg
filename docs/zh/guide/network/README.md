@@ -81,7 +81,7 @@ xxx.xxx.xxx.x/18 即
 
 ![network check](/assets/net-check.jpg)
 
-检查`IP ADDRESS`与`SUBNET MASK`的内容是否与你填写的一致。如果是的话，则网路已配置成功。
+检查`IP ADDRESS`与`SUBNET MASK`的内容是否与你填写的一致。如果是的话，则网络已配置成功。
 
 ---
 

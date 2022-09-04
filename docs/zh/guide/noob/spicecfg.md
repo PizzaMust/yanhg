@@ -21,7 +21,7 @@ order: 5
 ## 将SpiceTools放入游戏目录
 
 1. 将`spice64.exe` `spicecfg.exe` 放入游戏根目录`contents`下，其他文件是不需要的。
-2. 双击`spicecfg.exe`打开，检查标题栏的日期版本。以下操作均基于版本号为`2022-04-07`的情况进行。
+2. 双击`spicecfg.exe`打开，检查标题栏的日期版本。以下操作均基于SpiceTools版本号为`2022-04-07`的情况进行。
 
 ## 按键绑定
 
