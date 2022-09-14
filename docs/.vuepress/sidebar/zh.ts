@@ -11,7 +11,7 @@ export const zh = sidebar({
     {
       text: "轮椅人教程",
       prefix: "guide/noob/",
-      icon: "launch",
+      icon: "disability",
       link: "guide/noob/",
       collapsable: true,
       children: "structure",
@@ -19,7 +19,7 @@ export const zh = sidebar({
     {
       text: "网络联机",
       prefix: "guide/network/",
-      icon: "light",
+      icon: "network",
       link: "guide/network/",
       // collapsable: true,
       children: "structure",

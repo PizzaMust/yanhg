@@ -5,7 +5,7 @@ import * as sidebar from "./sidebar";
 export default hopeTheme({
   hostname: "https://konami.sb",
 
-  iconAssets: "iconfont",
+  iconAssets: "//at.alicdn.com/t/c/font_3648253_oqtc66pt18.css",
 
   logo: "/logo.svg",
 
