@@ -8,6 +8,8 @@ order: 2
 
 ## 解压的艺术
 
+![This noob won't make me cry](/assets/onioncry.jpg  =200x)
+
 如果你熟知解压的艺术，你可以直接跳到[#选择合适的目录](#选择合适的目录)。
 
 ### 解压软件的选择

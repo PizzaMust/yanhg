@@ -46,3 +46,13 @@ PowerCfg /SETACTIVE SCHEME_CURRENT
 ## `Asphyxia CORE` 无法正常启动
 
 <Badge text="TODO" />
+
+## 排除端口占用问题
+
+1. 首先，打开一个CMD/Powershell/你喜欢的Shell；
+2. 输入`netstat -aon | findstr <你要寻找的端口>`
+3. 如果有输出的话，最后一列为进程PID号；
+4. 输入`taskkill /F /P <PID>`强行停止占用端口的进程。
+
+::: tip
+Windows 10/11 的 Hyper-V 功能有时会不正确地占用低位端口。如果你发现以上命令没有返回任何东西，并且你开启了 Hyper-V ，可以尝试排除这方面的问题。[见此（站外链接）](https://zhaoji.wang/solve-the-problem-of-windows-10-ports-being-randomly-reserved-occupied-by-hyper-v/)

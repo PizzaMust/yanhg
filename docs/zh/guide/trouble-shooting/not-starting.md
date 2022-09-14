@@ -40,7 +40,6 @@ order: 1
 
 + 音频设备问题，这是**最常见的问题**。其原因可能是部分外置声卡/DAC无法正确处理WASAPI独占模式导致的。可尝试使用主板自带声卡，或者尝试在[修改主入口文件](../noob/structure.md#主入口文件的修改)时开启`Shared mode WASAPI`与`Shared mode WASAPI Valkyrie`
 + `soundvoltex.dll` 与游戏资源版本不对应，请用对应版本的dll匹配对应的资源
-+ 未禁用摄像头，可在`spicecfg`中打开`SDVX Disable Cameras`选项
 
 ## unable to find Direct3DCreate9On12Ex
 
@@ -70,3 +69,15 @@ order: 1
 现在`SpiceTools`已经修复了这个问题，如果出现闪退的话，可能是因为版本太老了。
 
 :::
+
+## `fscache-server: bind failed. retry.`
+
+检查以下几个端口是否被占用：
+
+| 类型  | 端口号 |
+| :---: | :----: |
+|  TCP  |  5703  |
+|  UDP  |  5854  |
+|  UDP  | 64106  |
+
+请参考[##排除端口占用](misc.md#排除端口占用问题)来解决问题。
