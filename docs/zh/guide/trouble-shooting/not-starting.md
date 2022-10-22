@@ -39,8 +39,7 @@ order: 1
 这种情况可能是由多方面导致的，这里只能给出一些大概的解决方式：
 
 + 音频设备问题，这是**最常见的问题**。其原因可能是部分外置声卡/DAC无法正确处理WASAPI独占模式导致的。可尝试使用主板自带声卡，或者尝试在[修改主入口文件](../noob/structure.md#主入口文件的修改)时开启`Shared mode WASAPI`与`Shared mode WASAPI Valkyrie`
-+ `soundvoltex.dll` 与游戏资源版本不对应，请用对应版本的dll匹配对应的资源
-
++ 如果在诸如`BM2D: CreateLayer()` 附近看到`EXCEPTION_ACCESS_VIOLATION` 的话，那么说明游戏资源不完整。可能是因为覆盖了不正确的升级包导致的；确保游戏资源是完整的再试
 ## unable to find Direct3DCreate9On12Ex
 
 出现这种错误说明你的操作系统版本过低。Windows仅在`20H1`及以后的版本中支持`dx9on12`，请尝试升级操作系统。
