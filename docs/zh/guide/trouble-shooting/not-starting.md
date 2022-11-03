@@ -41,6 +41,7 @@ order: 1
 + 音频设备问题，这是**最常见的问题**。其原因可能是部分外置声卡/DAC无法正确处理WASAPI独占模式导致的。可尝试使用主板自带声卡，或者尝试在[修改主入口文件](../noob/structure.md#主入口文件的修改)时开启`Shared mode WASAPI`与`Shared mode WASAPI Valkyrie`
 + 如果在诸如`BM2D: CreateLayer()` 附近看到`EXCEPTION_ACCESS_VIOLATION` 的话，那么说明游戏资源不完整，可能是因为覆盖了不正确的升级包导致的。确保游戏资源是完整的再试。
 + W:EXCEPTION: XXX.c:XX 如果你在升级到`1018`后看到了这个错误，那么就是游戏所连接服务器的问题。请去询问服务器提供方，或者考虑修改氧无插件（如果你用的是氧无的话）。
+
 ## unable to find Direct3DCreate9On12Ex
 
 出现这种错误说明你的操作系统版本过低。Windows仅在`20H1`及以后的版本中支持`dx9on12`，请尝试升级操作系统。
@@ -55,6 +56,21 @@ order: 1
 
 现在`SpiceTools`已经集成了`DirectX 9 On 12`的功能，理论上这些外部文件都已经不需要了。
 :::
+
+## exception raised: Unknown`(0x109fa7a1)`
+
+如果在该exception附近有类似如下所示的log：
+``` log
+[2077/07/27 11:45:14] W:graphics::d3d9: CreateDeviceEx failed, hr=0x8876086c
+[2077/07/27 11:45:14] W:InitD3D: CreateDevice failed
+[2077/07/27 11:45:14] W:APP: Failed to initialize Direct 3D.
+[2077/07/27 11:45:14] F:APP: Failed to initialize application.
+```
+那么可能是多屏配置的问题。在log中寻找有没有`D3DFMT_UNKNOWN`的显示器，例如：
+``` log
+[2077/07/27 11:45:14] I:graphics::d3d9: D3D9Ex fullscreen display mode for adapter 2: Width: 0, Height: 0, RefreshRate: 0, Format: D3DFMT_UNKNOWN, ScanLineOrdering: 1
+```
+拔掉该显示器再尝试开启游戏。
 
 ## 无法定位程序输入点`cuvidGetDecodeStatus`
 
