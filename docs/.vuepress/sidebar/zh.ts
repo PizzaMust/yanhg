@@ -9,7 +9,7 @@ export const zh = sidebar({
       link: "guide/",
     },
     {
-      text: "轮椅人教程",
+      text: "HDD轮椅人教程",
       prefix: "guide/noob/",
       icon: "disability",
       link: "guide/noob/",
