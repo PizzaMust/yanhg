@@ -43,3 +43,9 @@ order: 2
 ## 回线混杂/网络错误
 
 <Badge text="TODO"/>
+
+
+## 游戏内轨道与激光消失
+
++ 如果是AMD显卡，请检查`spicecfg`中`DirectX 9 on 12`选项是否开启
++ 如果是NVIDIA显卡，请尝试重装显卡驱动
