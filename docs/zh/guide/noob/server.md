@@ -16,18 +16,18 @@ order: 4
 
 + [Asphyxia CORE](https://github.com/asphyxia-core/asphyxia-core.github.io/releases/latest) [(国内用户推荐使用镜像)](https://ghproxy.com/https://github.com/asphyxia-core/asphyxia-core.github.io/releases/latest)
   + 选择`asphyxia-core-win-x64.zip`下载
-+ [社区插件](https://github.com/asphyxia-core/plugins) [(国内用户推荐使用镜像)](https://hub.fastgit.xyz/asphyxia-core/plugins)
-  + 下载方法在下文给出
++ [社区插件](https://github.com/22vv0/asphyxia_plugins/archive/stable.zip) [(国内用户推荐使用镜像)](https://github.com/22vv0/asphyxia_plugins/archive/stable.zip)
+  <!-- + 下载方法在下文给出 -->
 
-### 如何正确下载插件
+<!-- ### 如何正确下载插件
 
 插件全部托管于GitHub的一个repo中，虽然repo本身在持续更新，但是release已经很久没更新了。所以，你需要手动下载这个repo来获取最新版本插件。
 
-1. 打开[repo](https://github.com/asphyxia-core/plugins) [(国内用户推荐使用镜像)](https://hub.fastgit.xyz/asphyxia-core/plugins)界面
+1. 打开[repo](https://github.com/22vv0/asphyxia_plugins/) [(国内用户推荐使用镜像)](https://hub.fastgit.xyz/22vv0/asphyxia_plugins/)界面
 2. 点击右上方绿色的`Code`按钮
     ![plugin-step1](/assets/plugin-step1.jpg)
 3. 点击`Download ZIP`
-    ![plugin-step2](/assets/plugin-step2.jpg)
+    ![plugin-step2](/assets/plugin-step2.jpg) -->
 
 ## 配置Asphyxia CORE
 

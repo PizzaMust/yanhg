@@ -49,3 +49,7 @@ order: 2
 
 + 如果是AMD显卡，请检查`spicecfg`中`DirectX 9 on 12`选项是否开启
 + 如果是NVIDIA显卡，请尝试重装显卡驱动
+
+## 考段闪退
+
+如果你正在使用`20221018`及之后的版本，在patch `soundvoltex.dll`时**不要**勾选Unlock All Songs/Difficulties。如果已经patch，请再patch一遍。作为替代，可以用`Asphyxia`来完成歌曲全解。
