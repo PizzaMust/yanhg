@@ -103,6 +103,10 @@ EXCEED GEAR在官机上只有60FPS与120FPS两种刷新率，如果你的屏幕�
 如果你正在使用`20221018`及之后的版本，**不要**勾选Unlock All Songs/Difficulties，否则会导致考段模式闪退。作为替代，可以用`Asphyxia`来完成歌曲全解。
 :::
 
+::: warning 注意
+如果你正在使用`20231024`及之后的版本，**不要**勾选Hide premium guide banner，否则会导致游戏闪退。
+:::
+
 在修改完成后，将`soundvoltex.dll`替换到原游戏目录下即可。
 
 ## 游戏版本文件修改

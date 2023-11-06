@@ -42,7 +42,8 @@ order: 2
 
 ## 回线混杂/网络错误
 
-<Badge text="TODO"/>
+如果使用的是离线服务器的话，确保你的`Asphyxia`插件是正确的；
+如果是在线服务器，请联系服务器提供方。
 
 
 ## 游戏内轨道与激光消失
@@ -53,3 +54,11 @@ order: 2
 ## 考段闪退
 
 如果你正在使用`20221018`及之后的版本，在patch `soundvoltex.dll`时**不要**勾选Unlock All Songs/Difficulties。如果已经patch，请再patch一遍。作为替代，可以用`Asphyxia`来完成歌曲全解。
+
+## 进入选曲界面时闪退
+
+`20230425`开始的Year3版本修改了部分网络请求，需要氧无插件进行适配。
+
+## 选曲后开始游戏时闪退
+
+对于`20231024`，不要勾选Hide premium guide banner，此patch会导致游戏闪退。
