@@ -3,7 +3,7 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://konami.sb",
+  hostname: "https://doc.573.gay",
 
   iconAssets: "//at.alicdn.com/t/c/font_3648253_31qf7vu8kws.css",
 
@@ -14,30 +14,30 @@ export default hopeTheme({
   locales: {
     "/": {
       // // navbar
-      // navbar: navbar.en,
+      navbar: navbar.zh,
 
       // // sidebar
-      // sidebar: sidebar.en,
+      sidebar: sidebar.zh,
 
-      footer: "WTFPL|konami.sb",
+      footer: "WTFPL|573.gay",
 
-      displayFooter: true,
+      displayFooter: false,
     },
 
     /**
      * Chinese locale config
      */
-    "/zh/": {
-      // navbar
-      navbar: navbar.zh,
+    // "/zh/": {
+    //   // navbar
+    //   navbar: navbar.zh,
 
-      // sidebar
-      sidebar: sidebar.zh,
+    //   // sidebar
+    //   sidebar: sidebar.zh,
 
-      footer: "WTFPL|konami.sb",
+    //   footer: "WTFPL|573.gay",
 
-      displayFooter: false,
-    },
+    //   displayFooter: false,
+    // },
   },
 
   navbarLayout: {
