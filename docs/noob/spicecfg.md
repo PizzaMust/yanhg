@@ -16,12 +16,17 @@ order: 5
 
 你可以将其称为*模拟器*，但是由于现代街机基板与普通电脑架构无异，所以其起到的更多是封装的作用。
 
-本文档不会提供SpiceTools的下载，请自寻。以下操作均基于你已经持有文件的情况进行。
+### 什么是Spice2x
+
+**Spice2x** 是原版SpiceTools的一个分支版本，添加了很多有用的功能与修复，也是目前唯一公开积极维护的版本。
+
+### 下载Spice2x
++ [Spice2x](https://spice2x.github.io/)
 
 ## 将SpiceTools放入游戏目录
 
-1. 将`spice64.exe` `spicecfg.exe` 放入游戏根目录`contents`下，其他文件是不需要的。
-2. 双击`spicecfg.exe`打开，检查标题栏的日期版本。以下操作均基于SpiceTools版本号为`2022-04-07`的情况进行。
+1. 将`spice64.exe`、`spicecfg.exe`，以及`stubs`文件夹放入游戏根目录`contents`下，其他文件是不需要的。
+2. 双击`spicecfg.exe`打开，检查标题栏的日期版本。以下操作均基于Spice2x版本号为`2024-02-13`的情况进行。
 
 ## 按键绑定
 
@@ -105,21 +110,7 @@ order: 5
 1. 将标签页切换到`Options`
 2. 开启/填写以下选项：
 
-::: tabs#cards
-
-@tab NVIDIA显卡和INTEL显卡
-
 + Service URL: 填入 `http://localhost:8083`
-+ [x] Load Sound Voltex Module
 + [x] SDVX Disable Cameras
-
-@tab AMD显卡
-
-+ Service URL: 填入 `http://localhost:8083`
-+ [x] DirectX 9 on 12
-+ [x] Load Sound Voltex Module
-+ [x] SDVX Disable Cameras
-
-:::
 
 全部完成后，就可以关闭窗口了，设置会自动保存。

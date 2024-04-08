@@ -178,6 +178,9 @@ EXCEED GEAR在官机上只有60FPS与120FPS两种刷新率，如果你的屏幕�
 
 对于N卡用户，可以直接跳过看下一节[配置离线服务器](server.md)，而非N卡玩家则需要手动下载并放置这两个DLL到游戏根目录`contents`下。
 
+::: note
+目前`spice2x`已经集成了n卡相关dll的替代方案，如果你想按照本文的方案使用spice2x，那么就不需要再手动下载dll，直接看下一节即可。
+:::
 你可以随意寻找网站获取这两个dll，比如
 
 [https://cn.dll-files.com/nvcuda.dll.html](https://cn.dll-files.com/nvcuda.dll.html)
