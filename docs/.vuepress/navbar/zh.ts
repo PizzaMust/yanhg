@@ -6,7 +6,7 @@ export const zh = navbar([
     link: "/"
   },
   {
-    text: '家用版SDVX <Badge text="TODO" />',
+    text: '家用版SDVX',
     icon: "gamepad",
     link: "/eacsdvx/"
   },

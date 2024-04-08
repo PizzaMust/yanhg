@@ -25,7 +25,7 @@ export const zh = sidebar({
       children: "structure",
     },
     {
-      text: '目录结构 <Badge text="TODO" />',
+      text: '目录结构',
       prefix: "structure/",
       icon: "structure",
       // collapsable: true,
