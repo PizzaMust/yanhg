@@ -43,8 +43,8 @@ export const zh = sidebar({
     {
       text: "家用版SDVX教程",
       // icon: "eacsdvx",
-      prefix: "/",
-      link: "eacsdvx/",
+      prefix: "eacsdvx/",
+      link: "/",
       children: "structure",
     },
   ],
