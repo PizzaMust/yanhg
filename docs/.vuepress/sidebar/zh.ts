@@ -39,13 +39,5 @@ export const zh = sidebar({
       children: "structure",
     }
   ],
-  "/eacsdvx/": [
-    {
-      text: "家用版SDVX教程",
-      // icon: "eacsdvx",
-      prefix: "eacsdvx/",
-      link: "/",
-      children: "structure",
-    },
-  ],
+  "/eacsdvx/": "structure",
 });
