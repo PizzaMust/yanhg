@@ -11,7 +11,7 @@ order: 1
 ::: note
 本教程介绍的是运行 **EXCEED GEAR** `HDD`的准备，如果你想阅读官方EAC版的购买与安装方法，
 
-请前往[EAC版教程](../eac)<Badge text="TODO"/>
+请前往[EAC版教程](../eacsdvx)<Badge text="WIP"/>
 :::
 
 ::: warning

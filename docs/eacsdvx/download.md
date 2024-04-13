@@ -6,6 +6,7 @@ order: 3
 
 访问官方下载页面，点击“同意してインストーラーをダウンロード”即可开始下载安装器。
 [官方下载页面](https://p.eagate.573.jp/game/eacsdvx/vi/download/index.html)
+
 [下载直链](https://dks1q2aivwkd6.cloudfront.net/vi/installer/sdvx_installer_2022011800.msi)
 
 ## 配置需求
